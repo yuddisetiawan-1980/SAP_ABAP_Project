@@ -18,13 +18,13 @@ O sistema então realiza uma consulta na tabela **SCARR** e exibe os seguintes c
 
 ### 📌 Tela de Seleção dos Parâmetros
 
-![Tela de Seleção](./imgs/tela-selecao.png)
+![Tela de Seleção](./imgs/tela-selecao.png.png)
 
 ---
 
 ### 📋 Resultado da Execução
 
-![Resultado da Execução](./imgs/resultado.png)
+![Resultado da Execução](./imgs/resultado.png.png)
 
 ---
 
